@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.cartSession{
+    margin: 2rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns:2fr 1fr;
+
+}
+.cartDeatails{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.cartDeatails td,table{
+    border-bottom :2px solid  #f2f2f2;
+    padding: 1rem;
+}
+th{
+    font-size: 19px;
+    padding: 2rem;
+    height: 3rem;
+    background-color: rgb(120,190,250);
+    text-align: left;
+
+}
+a{
+    color:red;
+}
+
+.Column_third{
+    width:6rem;
+}
+table{
+    border-collapse: collapse;
+}
+img{
+    width:30%;
+    height: 30%;
+}
+.imgSession{
+    display: flex;
+
+
+    align-items: center;
+}
+.quantity{
+    width:3.5rem;
+     padding: 0.3rem;
+}
+
+.cartTotals{
+    // background-color: blue;
+}
+.total{
+    margin-left:5rem;
+    border:2px solid red;
+    padding: 1rem;
+}
+.total h4{
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.total table tr{
+    display: flex;
+    justify-content:space-between;
+
+    margin-top: 2rem;
+}
+.total  td:nth-child(2){
+    text-align: right;
+    margin-left: 10rem;
+    font-weight: 700;
+}
+.total  td:nth-child(1){
+    color: green;
+    font-size: 18px;
+}
+.CheckOutBtn,.promoBtn{
+    padding: 0.5rem;
+    border:none;
+    background-color: rgb(190,170,180);
+    cursor: pointer;
+    transition: 0.5s;
+    width:7rem;
+
+    margin: 2rem 0rem 1rem 4rem;
+}
+
+.promoBtn{
+
+
+    background-color: rgb(130,160,180);
+
+}
+.CheckOutBtn:hover{
+    background-color:  #3e8e41;
+    transition: 0.5s;
+
+}
+.promoInput{
+    height:2rem;
+}
+.promo_session h5{
+    font-size: 1rem;
+}
+.overAllPrice{
+    color:brown;
+}
+.update{
+    margin-top:0.5rem;
+    border: none;
+    background-color:blanchedalmond;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.update:hover{
+      background-color:bisque;  
+}
